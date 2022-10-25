@@ -4,34 +4,34 @@ const Navbar = ({ sceneHandler }) => {
   return (
     <nav>
       <button type="button" onClick={() => sceneHandler("01")}>
-        Squares
+        Boxes
       </button>
       <button type="button" onClick={() => sceneHandler("02")}>
-        Squares
+        Spheres
       </button>
       <button type="button" onClick={() => sceneHandler("03")}>
-        Squares
+        Cylinders
       </button>
       <button type="button" onClick={() => sceneHandler("04")}>
-        Squares
+        Cones
       </button>
       <button type="button" onClick={() => sceneHandler("05")}>
-        Squares
+        Octahedrons
       </button>
       <button type="button" onClick={() => sceneHandler("06")}>
-        Squares
+        Circles
       </button>
       <button type="button" onClick={() => sceneHandler("07")}>
-        Squares
+        Interactive 01
       </button>
       <button type="button" onClick={() => sceneHandler("08")}>
-        Squares
+        Interactive 02
       </button>
       <button type="button" onClick={() => sceneHandler("09")}>
-        Squares
+        Interactive 03
       </button>
       <button type="button" onClick={() => sceneHandler("10")}>
-        Squares
+        Interactive 04
       </button>
     </nav>
   );
