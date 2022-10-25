@@ -1,25 +1,53 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { Canvas } from "@react-three/fiber";
+import "./App.css";
 
 function App() {
+  const [scene, setScene] = useState("scene-1");
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div>Navbar</div>
+      <div className="canvas-container">
+        <Canvas>
+          <ambientLight intensity={(0, 1)} />
+          <directionalLight color="red" position={[0, 0, 5]} />
+          <mesh>
+            <boxGeometry args={[2, 2, 2]} />
+            <meshStandardMaterial />
+          </mesh>
+        </Canvas>
+      </div>
+      <div className="canvas-container">
+        <Canvas>
+          <ambientLight intensity={(0, 1)} />
+          <directionalLight color="blue" position={[0, 0, 5]} />
+          <mesh>
+            <boxGeometry args={[2, 2, 2]} />
+            <meshStandardMaterial />
+          </mesh>
+        </Canvas>
+      </div>
+      <div className="canvas-container">
+        <Canvas>
+          <ambientLight intensity={(0, 1)} />
+          <directionalLight color="yellow" position={[0, 0, 5]} />
+          <mesh>
+            <boxGeometry args={[2, 2, 2]} />
+            <meshStandardMaterial />
+          </mesh>
+        </Canvas>
+      </div>
+      <div className="canvas-container">
+        <Canvas>
+          <ambientLight intensity={(0, 1)} />
+          <directionalLight color="yellow" position={[0, 0, 5]} />
+          <mesh>
+            <boxGeometry args={[2, 2, 2]} />
+            <meshNormalMaterial />
+          </mesh>
+        </Canvas>
+      </div>
+    </>
   );
 }
 
