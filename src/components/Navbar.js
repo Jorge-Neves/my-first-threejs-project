@@ -7,13 +7,13 @@ const Navbar = ({ sceneHandler }) => {
         Boxes
       </button>
       <button type="button" onClick={() => sceneHandler("02")}>
-        Spheres
+        Cones
       </button>
       <button type="button" onClick={() => sceneHandler("03")}>
         Cylinders
       </button>
       <button type="button" onClick={() => sceneHandler("04")}>
-        Cones
+        Spheres
       </button>
       <button type="button" onClick={() => sceneHandler("05")}>
         Octahedrons
@@ -22,10 +22,10 @@ const Navbar = ({ sceneHandler }) => {
         Circles
       </button>
       <button type="button" onClick={() => sceneHandler("07")}>
-        Interactive 01
+        Triangles
       </button>
       <button type="button" onClick={() => sceneHandler("08")}>
-        Interactive 02
+        Squares
       </button>
       <button type="button" onClick={() => sceneHandler("09")}>
         Interactive 03

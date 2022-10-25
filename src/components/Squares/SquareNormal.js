@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { useFrame } from "@react-three/fiber";
 
-const ConeNormal = (props) => {
+const SquareNormal = (props) => {
   const boxRef = useRef();
 
   useFrame((state, delta) => {
@@ -17,11 +17,11 @@ const ConeNormal = (props) => {
   return (
     <>
       <mesh {...props} ref={boxRef}>
-        <coneGeometry args={[2, 2, 30]} />
+        <boxGeometry args={[2, 2, 0]} />
         <meshNormalMaterial />
       </mesh>
     </>
   );
 };
 
-export default ConeNormal;
+export default SquareNormal;
