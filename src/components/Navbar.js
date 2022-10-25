@@ -1,16 +1,38 @@
 import React from "react";
-import { Canvas } from "@react-three/fiber";
-import "./App.css";
 
-const Navbar = () => {
+const Navbar = ({ sceneHandler }) => {
   return (
     <nav>
-      <button>Squares</button>
-      <button>Spheres</button>
-      <button>Squares</button>
-      <button>Squares</button>
-      <button>Squares</button>
-      <button>Squares</button>
+      <button type="button" onClick={() => sceneHandler(1)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(2)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(3)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(4)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(5)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(6)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(7)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(8)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(9)}>
+        Squares
+      </button>
+      <button type="button" onClick={() => sceneHandler(10)}>
+        Squares
+      </button>
     </nav>
   );
 };
