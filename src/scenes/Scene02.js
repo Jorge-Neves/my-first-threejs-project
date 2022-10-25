@@ -3,7 +3,7 @@ import React from "react";
 const Scene02 = () => {
   return (
     <div>
-      <span>placeholder</span>
+      <span>Scene 02</span>
     </div>
   );
 };
