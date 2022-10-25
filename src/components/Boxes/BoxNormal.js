@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useRef } from "react";
+import { useFrame } from "@react-three/fiber";
 
 const BoxNormal = (props) => {
+  const boxRef = useRef();
+
+  useFrame((state, delta) => {
+    if (props.animation === "vertical") {
+      boxRef.current.rotation.x += delta;
+    } else if (props.animation === "horizontal") {
+      boxRef.current.rotation.y += delta;
+    } else {
+      boxRef.current.rotation.z += delta;
+    }
+  });
+
   return (
     <>
-      <mesh {...props}>
+      <mesh {...props} ref={boxRef}>
         <boxGeometry args={[2, 2, 2]} />
         <meshNormalMaterial />
       </mesh>
