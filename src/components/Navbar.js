@@ -36,43 +36,11 @@ const Navbar = ({ sceneHandler }) => {
         </button>
       </div>
       <div>
-        <button type="button" onClick={() => sceneHandler("01")}>
+        <button type="button" onClick={() => sceneHandler("11")}>
           Edges
         </button>
-        <button type="button" onClick={() => sceneHandler("02")}>
-          Extrude
-        </button>
-        <button type="button" onClick={() => sceneHandler("03")}>
-          Icosahedron
-        </button>
-        <button type="button" onClick={() => sceneHandler("04")}>
-          Lathe
-        </button>
-        <button type="button" onClick={() => sceneHandler("05")}>
-          Planes
-        </button>
-        <button type="button" onClick={() => sceneHandler("06")}>
-          Rings
-        </button>
-        <button type="button" onClick={() => sceneHandler("07")}>
-          Tetrahedron
-        </button>
-        <button type="button" onClick={() => sceneHandler("08")}>
-          Torus
-        </button>
-        <button type="button" onClick={() => sceneHandler("09")}>
-          Torus Knot
-        </button>
-        <button type="button" onClick={() => sceneHandler("10")}>
-          Tube
-        </button>
-      </div>
-      <div>
-        <button type="button" onClick={() => sceneHandler("11")}>
-          Wireframes
-        </button>
         <button type="button" onClick={() => sceneHandler("12")}>
-          Free Shape
+          Extrude
         </button>
         <button type="button" onClick={() => sceneHandler("13")}>
           Icosahedron
@@ -96,6 +64,38 @@ const Navbar = ({ sceneHandler }) => {
           Torus Knot
         </button>
         <button type="button" onClick={() => sceneHandler("20")}>
+          Tube
+        </button>
+      </div>
+      <div>
+        <button type="button" onClick={() => sceneHandler("21")}>
+          Wireframes
+        </button>
+        <button type="button" onClick={() => sceneHandler("22")}>
+          Free Shape
+        </button>
+        <button type="button" onClick={() => sceneHandler("23")}>
+          Icosahedron
+        </button>
+        <button type="button" onClick={() => sceneHandler("24")}>
+          Lathe
+        </button>
+        <button type="button" onClick={() => sceneHandler("25")}>
+          Planes
+        </button>
+        <button type="button" onClick={() => sceneHandler("26")}>
+          Rings
+        </button>
+        <button type="button" onClick={() => sceneHandler("27")}>
+          Tetrahedron
+        </button>
+        <button type="button" onClick={() => sceneHandler("28")}>
+          Torus
+        </button>
+        <button type="button" onClick={() => sceneHandler("29")}>
+          Torus Knot
+        </button>
+        <button type="button" onClick={() => sceneHandler("30")}>
           Tube
         </button>
       </div>
