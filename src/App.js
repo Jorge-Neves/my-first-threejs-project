@@ -53,7 +53,7 @@ function App() {
           <Route path="/scene11" element={<Scene11 />} />
           <Route path="/scene12" element={<Scene12 />} />
           <Route path="/scene13" element={<Scene13 />} />
-          <Route path="/scne14" element={<Scene14 />} />
+          <Route path="/scene14" element={<Scene14 />} />
           <Route path="/scene15" element={<Scene15 />} />
           <Route path="/scene16" element={<Scene16 />} />
           <Route path="/scene17" element={<Scene17 />} />
