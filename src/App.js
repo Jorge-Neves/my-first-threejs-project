@@ -14,7 +14,7 @@ import Scene06 from "./scenes/Scene06";
 import Scene07 from "./scenes/Scene07";
 import Scene08 from "./scenes/Scene08";
 import Scene09 from "./scenes/Scene09";
-import Scene10 from "./scenes/Scene10";
+import Scene10 from "./scenes/Scene21";
 import Scene11 from "./scenes/Scene11";
 import Scene12 from "./scenes/Scene12";
 import Scene13 from "./scenes/Scene13";
@@ -25,6 +25,16 @@ import Scene17 from "./scenes/Scene17";
 import Scene18 from "./scenes/Scene18";
 import Scene19 from "./scenes/Scene19";
 import Scene20 from "./scenes/Scene20";
+import Scene21 from "./scenes/Scene21";
+import Scene22 from "./scenes/Scene22";
+import Scene23 from "./scenes/Scene23";
+import Scene24 from "./scenes/Scene24";
+import Scene25 from "./scenes/Scene25";
+import Scene26 from "./scenes/Scene26";
+import Scene27 from "./scenes/Scene27";
+import Scene28 from "./scenes/Scene28";
+import Scene29 from "./scenes/Scene29";
+import Scene30 from "./scenes/Scene30";
 
 function App() {
   const [scene, setScene] = useState("scene-01");
@@ -60,6 +70,17 @@ function App() {
           <Route path="/scene18" element={<Scene18 />} />
           <Route path="/scene19" element={<Scene19 />} />
           <Route path="/scene20" element={<Scene20 />} />
+          <Route path="/scene10" element={<Scene21 />} />
+          <Route path="/scene11" element={<Scene21 />} />
+          <Route path="/scene12" element={<Scene22 />} />
+          <Route path="/scene13" element={<Scene23 />} />
+          <Route path="/scene14" element={<Scene24 />} />
+          <Route path="/scene15" element={<Scene25 />} />
+          <Route path="/scene16" element={<Scene26 />} />
+          <Route path="/scene17" element={<Scene27 />} />
+          <Route path="/scene18" element={<Scene28 />} />
+          <Route path="/scene19" element={<Scene29 />} />
+          <Route path="/scene20" element={<Scene30 />} />
         </Routes>
       </Router>
     </>
